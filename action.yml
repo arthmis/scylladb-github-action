@@ -1,10 +1,10 @@
 name: 'ScyllaDB action'
 description: 'Install ScyllaDB in docker container'
-inputs:
-    scylla version:
-        description: 'Version of ScyllaDB'
-        required: false
-        default: ''
+# inputs:
+#     scylla version:
+#         description: 'Version of ScyllaDB'
+#         required: false
+#         default: ''
 runs:
     using: 'docker'
     image: 'Dockerfile'
