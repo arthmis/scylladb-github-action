@@ -1,0 +1,5 @@
+name: 'ScyllaDB action'
+description: 'Install ScyllaDB in docker container'
+runs:
+    using: 'docker'
+    image: 'Dockerfile'
